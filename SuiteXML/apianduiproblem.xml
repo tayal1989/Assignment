@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API and UI Problem">
+    <parameter name="testType" value="Functional"/>
+    <parameter name="enableReporterLogging" value="true"/>
+    <test name="APIProblem">
+
+        <classes>
+            <class name="runner.TestRunner" />
+        </classes>
+    </test>
+
+</suite>
