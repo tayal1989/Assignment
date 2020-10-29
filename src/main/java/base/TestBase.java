@@ -18,6 +18,10 @@ public class TestBase {
 		tdc.populateConfiguration();
 	}
 
+	/**
+	 * This will open chrome driver and has set 30 seconds for each webelement
+	 * to load
+	 */
 	public void instantiateDriver() {
 		try {
 			System.setProperty("webdriver.chrome.driver",

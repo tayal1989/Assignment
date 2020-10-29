@@ -16,7 +16,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pages.HomePage;
 
-public class AssignmentStepDefinition extends TestBase {
+public class AssignmentStepDefinitionTest extends TestBase {
 	public HomePage hp = new HomePage();
 	public APIRequests apiRequests = new APIRequests();
 	public String priceOfProduct = "" ;
@@ -78,14 +78,14 @@ public class AssignmentStepDefinition extends TestBase {
 	@Then("^User deletes one of the laptop$")
 	public void user_deletes_one_of_the_laptop() throws Throwable {
 		hp.deleteProduct(driver, "Dell i7 8gb");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 
 	@Then("^User clicks on place order after filling form$")
 	public void user_clicks_on_place_order_after_filling_form() throws Throwable {
 		priceOfProduct = hp.getPrice(driver, "Sony vaio i5");
 		hp.placeOrder(driver);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		hp.fillForm(driver, "name", "TestUser");
 		hp.fillForm(driver, "country", "India");
 		hp.fillForm(driver, "city", "Gurgaon");

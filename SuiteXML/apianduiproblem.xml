@@ -3,11 +3,9 @@
 <suite name="API and UI Problem">
     <parameter name="testType" value="Functional"/>
     <parameter name="enableReporterLogging" value="true"/>
-    <test name="APIProblem">
-
+    <test name="APIUIProblem">
         <classes>
             <class name="runner.TestRunner" />
         </classes>
     </test>
-
 </suite>

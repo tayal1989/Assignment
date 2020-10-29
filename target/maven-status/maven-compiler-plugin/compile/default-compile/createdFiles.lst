@@ -1,1 +1,2 @@
-runner\TestRunner.class
+base\TestBase.class
+config\TestdataConfig.class

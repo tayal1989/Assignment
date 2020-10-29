@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="69.058362">
-<testcase classname="Adidas API and UI Problem" name="Add/delete product on cart and purchase using UI automation" time="56.487307">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="131.415602">
+<testcase classname="Adidas API and UI Problem" name="Add/delete product on cart and purchase using UI automation" time="122.736773">
 <system-out><![CDATA[Given User is on DemoBlaze Page.............................................passed
 And Navigates through product categories....................................passed
 When Laptop is added into cart..............................................passed
@@ -9,7 +9,7 @@ And User clicks on place order after filling form...........................pass
 And User purchases the item and validates it................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Adidas API and UI Problem" name="Add/Update/Delete pet records using API automation" time="12.571055">
+<testcase classname="Adidas API and UI Problem" name="Add/Update/Delete pet records using API automation" time="8.678829">
 <system-out><![CDATA[Given available pets are present............................................passed
 And pets can be added.......................................................passed
 And pets status can be changed to sold......................................passed

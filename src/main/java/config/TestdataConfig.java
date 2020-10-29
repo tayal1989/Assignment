@@ -14,11 +14,14 @@ public class TestdataConfig {
 	
 	public Properties prop;
 
+	/**
+	 * This will load test data from testdata file
+	 */
 	public void populateConfiguration() {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") + "/src/main/java/testdata/testdata.properties");
+					System.getProperty("user.dir") + "/src/test/java/testdata/testdata.properties");
 			prop.load(ip);
 
 			// API URL

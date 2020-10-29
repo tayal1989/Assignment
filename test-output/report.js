@@ -6,10 +6,6 @@ formatter.feature({
   "id": "adidas-api-and-ui-problem",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 5592718314,
-  "status": "passed"
-});
 formatter.scenario({
   "line": 3,
   "name": "Add/delete product on cart and purchase using UI automation",
@@ -49,53 +45,45 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.user_is_on_DemoBlaze_Page()"
+  "location": "AssignmentStepDefinitionTest.user_is_on_DemoBlaze_Page()"
 });
 formatter.result({
-  "duration": 1854896828,
+  "duration": 8797564878,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.navigates_through_product_categories()"
+  "location": "AssignmentStepDefinitionTest.navigates_through_product_categories()"
 });
 formatter.result({
-  "duration": 2259953687,
+  "duration": 2172149258,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.laptop_is_added_into_cart()"
+  "location": "AssignmentStepDefinitionTest.laptop_is_added_into_cart()"
 });
 formatter.result({
-  "duration": 33417693286,
+  "duration": 62321296148,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.user_deletes_one_of_the_laptop()"
+  "location": "AssignmentStepDefinitionTest.user_deletes_one_of_the_laptop()"
 });
 formatter.result({
-  "duration": 3073212402,
+  "duration": 6724875170,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.user_clicks_on_place_order_after_filling_form()"
+  "location": "AssignmentStepDefinitionTest.user_clicks_on_place_order_after_filling_form()"
 });
 formatter.result({
-  "duration": 5772894468,
+  "duration": 33674079773,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.user_purchases_the_item_and_validates_it()"
+  "location": "AssignmentStepDefinitionTest.user_purchases_the_item_and_validates_it()"
 });
 formatter.result({
-  "duration": 3716503266,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 799434872,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 4483859354,
+  "duration": 9046807652,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,35 +115,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.available_pets_are_present()"
+  "location": "AssignmentStepDefinitionTest.available_pets_are_present()"
 });
 formatter.result({
-  "duration": 3037910464,
+  "duration": 4245527010,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.pets_can_be_added()"
+  "location": "AssignmentStepDefinitionTest.pets_can_be_added()"
 });
 formatter.result({
-  "duration": 1337275465,
+  "duration": 1345112485,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.pets_status_can_be_changed_to_sold()"
+  "location": "AssignmentStepDefinitionTest.pets_status_can_be_changed_to_sold()"
 });
 formatter.result({
-  "duration": 1371634734,
+  "duration": 1739675856,
   "status": "passed"
 });
 formatter.match({
-  "location": "AssignmentStepDefinition.pets_can_be_deleted()"
+  "location": "AssignmentStepDefinitionTest.pets_can_be_deleted()"
 });
 formatter.result({
-  "duration": 1316120671,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1024253997,
+  "duration": 1348514030,
   "status": "passed"
 });
 });
